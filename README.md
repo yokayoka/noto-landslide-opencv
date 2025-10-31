@@ -21,7 +21,7 @@ Jupyter Notebook（`template_03c3.ipynb`）を開いて、セルを順に実行�
 
 ## 入力画像
 
-本リポジトリでは、Notebook（`template_03c2.ipynb`）の実行のため、輪島市真喜野地区のデータをサンプルとして使用しています。
+本リポジトリでは、Notebook（`template_03c3.ipynb`）の実行のため、輪島市真喜野地区のデータをサンプルとして使用しています。
 
 - 地震前の陰影図：`makino/bf_shade/bf_shade_ED673_881.tif`  
   [石川県森林管理課のDEM](https://www.geospatial.jp/ckan/dataset/2024-notowest-ground) より作成
