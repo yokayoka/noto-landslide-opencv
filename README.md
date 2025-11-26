@@ -17,20 +17,22 @@ OpenCVテンプレートマッチングを用いた画像差分ベクトル解�
 - pycrs
 - gdal
 ## 実行方法
--Jupyter Notebook（`template_03c3.ipynb`）を開いて、セルを順に実行してください。
+-Jupyter Notebook を開いて、セルを順に実行してください。
 +Google Colab または Jupyter Notebook で以下のノートブックを実行できます。  
 +
-+### 基本版（template_03c3.ipynb）
+### 基本版（template_03c3.ipynb）
 +- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yokayoka/noto-landslide-opencv/blob/main/template_03c3.ipynb)
 +
-+### 発展版（template_05a2.ipynb）
+  
+### ノイズ低減版（template_05a2.ipynb）
 +- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yokayoka/noto-landslide-opencv/blob/main/template_05a2.ipynb)
 +
+  
 +どちらもセルを上から順に実行してください。必要なサンプル画像はリポジトリ内の `data/` フォルダに格納されています。
 
 ## 入力画像
 
-本リポジトリでは、Notebook（`template_03c3.ipynb`）の実行のため、輪島市真喜野地区のデータをサンプルとして使用しています。
+本リポジトリのサンプルスクリプトでは、Notebookの実行のため、輪島市真喜野地区のデータをサンプルとして使用しています。いずれも下記のリンクからダウンロードしてご自分の Google Drive 内の適切なフォルダーに配置してご利用ください。また、ご自分でGIS等を用いて陰影図を作成することも可能です。ご自分で作成する際は、空間参照は (EPSG: 6675)、ピクセルサイズ: 0.5m　を推奨します。元となるDEMは、地震前については[石川県森林管理課のデータ](https://www.geospatial.jp/ckan/dataset/2024-notowest-ground)を、地震後については[林野庁](https://www.geospatial.jp/ckan/dataset/rinya-dem-noto2024)が[G空間情報センター](https://front.geospatial.jp/)から公開したものを利用することが出来ます。
 
 - [地震前の陰影図](https://drive.google.com/file/d/1CtKBV6IndaHTEspJjDKagERQx7KLTYeR/view?usp=drive_link)：`makino/bf_shade/bf_shade_ED673_881.tif`  
   [石川県森林管理課のDEM](https://www.geospatial.jp/ckan/dataset/2024-notowest-ground) より作成
