@@ -17,7 +17,16 @@ OpenCVテンプレートマッチングを用いた画像差分ベクトル解�
 - pycrs
 - gdal
 ## 実行方法
-Jupyter Notebook（`template_03c3.ipynb`）を開いて、セルを順に実行してください。
+-Jupyter Notebook（`template_03c3.ipynb`）を開いて、セルを順に実行してください。
++Google Colab または Jupyter Notebook で以下のノートブックを実行できます。  
++
++### 基本版（template_03c3.ipynb）
++- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yokayoka/noto-landslide-opencv/blob/main/template_03c3.ipynb)
++
++### 発展版（template_05a2.ipynb）
++- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yokayoka/noto-landslide-opencv/blob/main/template_05a2.ipynb)
++
++どちらもセルを上から順に実行してください。必要なサンプル画像はリポジトリ内の `data/` フォルダに格納されています。
 
 ## 入力画像
 
