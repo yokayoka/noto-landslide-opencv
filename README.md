@@ -32,21 +32,14 @@ OpenCVテンプレートマッチングを用いた画像差分ベクトル解�
 
 本リポジトリでは、Notebook（`template_03c3.ipynb`）の実行のため、輪島市真喜野地区のデータをサンプルとして使用しています。
 
-- 地震前の陰影図：`makino/bf_shade/bf_shade_ED673_881.tif`  
+- [地震前の陰影図](https://drive.google.com/file/d/1CtKBV6IndaHTEspJjDKagERQx7KLTYeR/view?usp=drive_link)：`makino/bf_shade/bf_shade_ED673_881.tif`  
   [石川県森林管理課のDEM](https://www.geospatial.jp/ckan/dataset/2024-notowest-ground) より作成
 
-- 地震後の陰影図：`makino/af_shade/af_shade_ED673_881.tif`  
-  北陸地方整備局より提供（同等の陰影図は [林野庁の発災後DEM](https://www.geospatial.jp/ckan/dataset/rinya-dem-noto2024) より作成可能）
+- [地震後の陰影図](https://drive.google.com/file/d/1TujWEA7cf91GJQs2PYuu25aXKXInqHe5/view?usp=drive_link)：`makino/af_shade/af_shade_ED673_881.tif`  
+  北陸地方整備局より提供（同等の陰影図は [林野庁の発災後DEM](https://www.geospatial.jp/ckan/dataset/rinya-dem-noto2024) より作成）
 
 - 「ED」＋3桁の数字（例：`ED673_881`）は、平面直角座標系7系における国土基本図の図郭名に対応しています。
 
-template_05a2.ipynb で使用する陰影図（GeoTIFF）は100MBを超えるため、GitHubには含めていません。
-Google Drive の共有リンクから `gdown` を用いてダウンロードする方式を採用しています。
-
-ノートブック内の次のセルで自動的にダウンロードされます：
-
-```python
-gdown.download("https://drive.google.com/uc?id=FILE_ID", "filename.tif")
 
 ### 注意点
 - 地震前後の陰影図は、**同一範囲・同一サイズ**の画像を使用してください。
